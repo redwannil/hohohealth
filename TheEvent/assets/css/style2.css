@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-page {
-  margin-top: 70px;
+  margin-top: 100px;
 }
 
 .wow {
@@ -151,8 +151,8 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 991px) {
   #header {
-    background: rgba(6, 12, 34, 0.98);
-    height: 70px;
+    background: rgba(220, 227, 252, 0.98);
+    height: 100px;
     padding: 15px 0;
     transition: all 0.5s;
   }
@@ -165,8 +165,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled, #header.header-fixed {
-  background: rgba(6, 12, 34, 0.98);
-  height: 70px;
+  background: rgba(220, 227, 252, 0.98);
+  height: 100px;
   padding: 15px 0;
   transition: all 0.5s;
 }
@@ -193,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 80px;
 }
 
 /*--------------------------------------------------------------
@@ -272,10 +272,10 @@ h1, h2, h3, h4, h5, h6 {
   padding: 8px;
   text-decoration: none;
   display: inline-block;
-  color: rgba(202, 206, 221, 0.8);
+  color: rgba(248, 34, 73, 0.8);
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 18px;
   outline: none;
 }
 
@@ -321,7 +321,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 8px;
   margin-top: 2px;
   line-height: 1;
-  font-size: 13px;
+  font-size: 20px;
 }
 
 .nav-menu li.buy-tickets a:hover {
@@ -349,7 +349,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #060c22;
   transition: 0.3s;
   display: block;
-  font-size: 13px;
+  font-size: 18px;
   text-transform: none;
   border-radius: 3px;
 }
@@ -457,7 +457,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(6, 12, 34, 0.8);
+  background: rgba(6, 12, 34, 0.6);
   display: none;
 }
 
@@ -480,7 +480,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/intro-bg.jpg) top center;
+  background: url(../img/intro-bg2.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -494,7 +494,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro:before {
   content: "";
-  background: rgba(6, 12, 34, 0.8);
+  background: rgba(6, 12, 34, 0.5);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -518,7 +518,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 991px) {
   #intro .intro-container {
-    top: 70px;
+    top: 100px;
   }
 }
 
@@ -626,7 +626,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .about-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 36px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
@@ -703,7 +703,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about h3 {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -711,7 +711,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about p {
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 20px;
   color: #fff;
 }
@@ -1504,7 +1504,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top {
-  background: #040919;
+  background: #91a9ff;
   padding: 60px 0 30px 0;
 }
 
