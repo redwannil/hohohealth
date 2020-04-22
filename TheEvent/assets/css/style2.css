@@ -697,7 +697,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about h2 {
-  font-size: 36px;
+  font-size: 28px;
   font-weight: bold;
   margin-bottom: 10px;
   color: #fff;
@@ -712,7 +712,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about p {
-  font-size: 18px;
+  font-size: 22px;
   margin-bottom: 20px;
   color: #fff;
 }
@@ -867,7 +867,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #schedule .sub-heading {
   text-align: center;
-  font-size: 18px;
+  font-size: 24px;
   font-style: italic;
   margin: 0 auto 30px auto;
 }
@@ -896,11 +896,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 #schedule .schedule-item time {
   padding-bottom: 5px;
   display: inline-block;
+  font-size: 32px;
 }
 
 #schedule .schedule-item .speaker {
-  width: 60px;
-  height: 60px;
+  width: 140px;
+  height: 140px;
   overflow: hidden;
   border-radius: 50%;
   float: left;
@@ -915,7 +916,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .schedule-item h4 {
-  font-size: 18px;
+  font-size: 32px;
   font-weight: 600;
   margin-bottom: 5px;
 }
@@ -924,13 +925,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-style: italic;
   color: #19328e;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 24px;
 }
 
 #schedule .schedule-item p {
   font-style: italic;
   color: #152b79;
   margin-bottom: 0;
+  font-size: 24px;
 }
 
 /*--------------------------------------------------------------
